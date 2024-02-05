@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      
+  
+
+  }
+  
+  header {
+    background-color: #fff;
+    padding: 80px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    
+  }
+
+  .acc-type{
+    position: absolute;
+     margin-top: 100px;
+     justify-content:left;
+     
+     
+   }
+  
+  .navbar {
+    display: flex;
+   /*creates space between the logo and links equal parts */
+   justify-content: left; /*aligns logo with the links */
+   
+  }
+
+  
+  
+.nav-links {
+    list-style: none; /*removes bullet points */
+    display: flex;/*allows links to move around display next to rather than underneath */
+    gap: 150px;
+    margin-left:-115px;
+   
+    
+  }
+  
+  .nav-links li {
+    margin: 0;
+    
+  }
+  
+  .nav-links a {
+    text-decoration: none; /*removes underline */
+    color: #333;
+    
+    
+    
+  }
+
+  .nav-links a:hover {
+    text-decoration: underline; /*removes underline */
+    color: #333;
+    font-weight: bold;
+    
+    
+  }
+   
+  .search-container {
+    display: flex;
+    max-width: 100%;
+    max-height: 50px;
+    width: 100%;
+    background-color: #fff;
+    padding: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius:25px;
+}
+
+
+
+input {
+  
+  border: none;
+  margin-top: 30px;
+  margin-left: -80px; 
+ 
+  
+}
+
+label{
+  margin-left: 15px;
+  margin-top:10px;
+  font-weight: bold;
+}
+
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 10px 10px 10px 10px;
+    background-color: #fff;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+button img {
+    width: 20px;
+    height: 20px;
+     
+}
+
+
+
+#fbutton{
+ 
+  margin-left: 15px;
+   
+   
+}
+
+#fbutton img {
+  width: 40px;
+    height: 40px
+   
+}
+
+
+  main {
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
